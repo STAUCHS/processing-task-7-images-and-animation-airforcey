@@ -2,21 +2,23 @@ import processing.core.PApplet;
 import processing.core.PImage;
 
 public class Sketch extends PApplet {
+  PImage img;
+
 
   public void settings() {
-    size(400, 400);
+    size(800, 800);
   }
 
   public void setup() {
     background(210, 255, 173);
+    img = loadImage("png.png");
+
   }
 
   public void draw() {
-    PImage img;
-
-  size(300, 300);
-  img = loadImage("image.webp");
   image(img, 0, 0);
+
+  
 }
 
 
