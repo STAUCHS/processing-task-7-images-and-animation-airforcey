@@ -15,13 +15,12 @@ public class Sketch extends PApplet {
     PImage img;
 
   size(300, 300);
-  img = loadImage("https://happycoding.io/images/stanley-1.jpg");
-}
-
-void draw() {
+  img = loadImage("image.webp");
   image(img, 0, 0);
 }
 
-  }
 
 }
+
+
+
