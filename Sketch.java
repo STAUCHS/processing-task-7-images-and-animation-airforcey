@@ -26,9 +26,8 @@ public class Sketch extends PApplet {
 
   public void draw() {
 
-
-  // moving 
-  image(imgMushroom. fltMushroomX, fltMushroomY);
+  // drawing the mushroom and moving it 
+  image(imgMushroom, fltMushroomX, fltMushroomY);
 
     fltMushroomX += fltXSpeed;
     fltMushroomY += fltYSpeed;
